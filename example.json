@@ -1,0 +1,2891 @@
+{
+  "id": "5e7479df3a6b6a15880e4b3c",
+  "name": "CSSE3002 Example Trello Board",
+  "desc": "",
+  "descData": null,
+  "closed": false,
+  "idOrganization": null,
+  "idEnterprise": null,
+  "limits": {
+    "attachments": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 36000,
+        "warnAt": 32400
+      },
+      "perCard": {
+        "status": "ok",
+        "disableAt": 1000,
+        "warnAt": 900
+      }
+    },
+    "boards": {
+      "totalMembersPerBoard": {
+        "status": "ok",
+        "disableAt": 1600,
+        "warnAt": 1440
+      }
+    },
+    "cards": {
+      "openPerBoard": {
+        "status": "ok",
+        "disableAt": 5000,
+        "warnAt": 4500
+      },
+      "openPerList": {
+        "status": "ok",
+        "disableAt": 5000,
+        "warnAt": 4500
+      },
+      "totalPerBoard": {
+        "status": "ok",
+        "disableAt": 2000000,
+        "warnAt": 1800000
+      },
+      "totalPerList": {
+        "status": "ok",
+        "disableAt": 1000000,
+        "warnAt": 900000
+      }
+    },
+    "checklists": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 2000000,
+        "warnAt": 1800000
+      },
+      "perCard": {
+        "status": "ok",
+        "disableAt": 500,
+        "warnAt": 450
+      }
+    },
+    "checkItems": {
+      "perChecklist": {
+        "status": "ok",
+        "disableAt": 200,
+        "warnAt": 180
+      }
+    },
+    "customFields": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 50,
+        "warnAt": 45
+      }
+    },
+    "customFieldOptions": {
+      "perField": {
+        "status": "ok",
+        "disableAt": 50,
+        "warnAt": 45
+      }
+    },
+    "labels": {
+      "perBoard": {
+        "status": "ok",
+        "disableAt": 1000,
+        "warnAt": 900
+      }
+    },
+    "lists": {
+      "openPerBoard": {
+        "status": "ok",
+        "disableAt": 500,
+        "warnAt": 450
+      },
+      "totalPerBoard": {
+        "status": "ok",
+        "disableAt": 3000,
+        "warnAt": 2700
+      }
+    },
+    "stickers": {
+      "perCard": {
+        "status": "ok",
+        "disableAt": 70,
+        "warnAt": 63
+      }
+    },
+    "reactions": {
+      "perAction": {
+        "status": "ok",
+        "disableAt": 1000,
+        "warnAt": 900
+      },
+      "uniquePerAction": {
+        "status": "ok",
+        "disableAt": 17,
+        "warnAt": 16
+      }
+    }
+  },
+  "pinned": false,
+  "starred": false,
+  "url": "https://trello.com/b/VhYYh3YQ/csse3002-example-trello-board",
+  "prefs": {
+    "permissionLevel": "public",
+    "hideVotes": false,
+    "voting": "disabled",
+    "comments": "members",
+    "invitations": "members",
+    "selfJoin": false,
+    "cardCovers": true,
+    "isTemplate": false,
+    "cardAging": "regular",
+    "calendarFeedEnabled": false,
+    "background": "blue",
+    "backgroundImage": null,
+    "backgroundImageScaled": null,
+    "backgroundTile": false,
+    "backgroundBrightness": "dark",
+    "backgroundColor": "#0079BF",
+    "backgroundBottomColor": "#0079BF",
+    "backgroundTopColor": "#0079BF",
+    "canBePublic": true,
+    "canBeEnterprise": true,
+    "canBeOrg": true,
+    "canBePrivate": true,
+    "canInvite": true
+  },
+  "shortLink": "VhYYh3YQ",
+  "subscribed": false,
+  "labelNames": {
+    "green": "Potential Customer",
+    "yellow": "",
+    "orange": "Sales Person",
+    "red": "",
+    "purple": "",
+    "blue": "",
+    "sky": "",
+    "lime": "",
+    "pink": "",
+    "black": ""
+  },
+  "powerUps": [],
+  "dateLastActivity": "2020-03-20T08:34:29.963Z",
+  "dateLastView": "2020-03-20T08:34:30.093Z",
+  "shortUrl": "https://trello.com/b/VhYYh3YQ",
+  "idTags": [],
+  "datePluginDisable": null,
+  "creationMethod": null,
+  "ixUpdate": "184",
+  "templateGallery": null,
+  "enterpriseOwned": false,
+  "idBoardSource": null,
+  "actions": [
+    {
+      "id": "5e74801621d69527a3e958f6",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e74801521d69527a3e958f4",
+          "name": "Only stories in the \"Must Have\", \"Should Have\", and \"Could Have\" lists will be downloaded",
+          "idShort": 9,
+          "shortLink": "Y1qtfOQH"
+        },
+        "list": {
+          "id": "5e747fd6fa103664df6ee3d3",
+          "name": "No Priority"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:34:30.010Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747ff60b40194a88cdb3a7",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "Add WIP stories or other cards here"
+        },
+        "card": {
+          "name": "Put WIP stories or other cards here",
+          "id": "5e747eef9953ff0d3db44f5a",
+          "idShort": 7,
+          "shortLink": "2KCHwswP"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747ee3ddcd9436dda729e1",
+          "name": "Other"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:33:58.397Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747ff3eed7ad4ef420a0e4",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e747ff3eed7ad4ef420a0e2",
+          "name": "Put completed stories that have no yet been prioritised here",
+          "idShort": 8,
+          "shortLink": "r4RTXtSK"
+        },
+        "list": {
+          "id": "5e747fd6fa103664df6ee3d3",
+          "name": "No Priority"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:33:55.257Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747fd84ab07c68b3af5c8a",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "pos": 327679
+        },
+        "list": {
+          "pos": 229375,
+          "id": "5e747fd6fa103664df6ee3d3",
+          "name": "No Priority"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateList",
+      "date": "2020-03-20T08:33:28.908Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747fd6fa103664df6ee3d5",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "list": {
+          "id": "5e747fd6fa103664df6ee3d3",
+          "name": "No Priority"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createList",
+      "date": "2020-03-20T08:33:26.032Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747f0c6ed16952aa10c934",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "W"
+        },
+        "list": {
+          "name": "Won't Have",
+          "id": "5e747a51d373282d4895d3a8"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateList",
+      "date": "2020-03-20T08:30:04.485Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747f063878130cb1d4db42",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "C"
+        },
+        "list": {
+          "name": "Could Have",
+          "id": "5e747a43e650092cfda2c323"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateList",
+      "date": "2020-03-20T08:29:58.994Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747f0428a4d764f8cc8036",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "S"
+        },
+        "list": {
+          "name": "Should Have",
+          "id": "5e747a445134b245b2d14d5a"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateList",
+      "date": "2020-03-20T08:29:56.556Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747f01d37972460b4068b0",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "M"
+        },
+        "list": {
+          "name": "Must Have",
+          "id": "5e747a41c69e741d42b7774a"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateList",
+      "date": "2020-03-20T08:29:53.766Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747ef09953ff0d3db44f5b",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e747eef9953ff0d3db44f5a",
+          "name": "Add WIP stories or other cards here",
+          "idShort": 7,
+          "shortLink": "2KCHwswP"
+        },
+        "list": {
+          "id": "5e747ee3ddcd9436dda729e1",
+          "name": "Other"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:29:36.041Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747ee3ddcd9436dda729e3",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "list": {
+          "id": "5e747ee3ddcd9436dda729e1",
+          "name": "Other"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createList",
+      "date": "2020-03-20T08:29:23.046Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747ccc6e00780287415da7",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "CSSE3002 Example Trello"
+        },
+        "board": {
+          "name": "CSSE3002 Example Trello Board",
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:20:28.707Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747cafe9a5a778dcd8bf52",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "(32) Artificial Sun: As a potential customer I want to be able to create my own artificial sun so I can have power at all times of the day"
+        },
+        "card": {
+          "name": "(32) Artificial Sun: As a potential customer I want to be able to create my own artificial sun so I can have unlimited power at all times of the day",
+          "id": "5e747c559bd9c978b5bfecfb",
+          "idShort": 6,
+          "shortLink": "xZ5t6skg"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a51d373282d4895d3a8",
+          "name": "W"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:19:59.074Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747c9adccc6a44ef0324f3",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": ""
+        },
+        "card": {
+          "desc": "## Acceptance Criteria\n- Ability to customise colour and temperature of sun\n\n## Notes\n- Is there a risk of creating a black hole?",
+          "id": "5e747c559bd9c978b5bfecfb",
+          "name": "(32) Artificial Sun: As a potential customer I want to be able to create my own artificial sun so I can have power at all times of the day",
+          "idShort": 6,
+          "shortLink": "xZ5t6skg"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a51d373282d4895d3a8",
+          "name": "W"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:19:38.923Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747c559bd9c978b5bfecfd",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e747c559bd9c978b5bfecfb",
+          "name": "(32) Artificial Sun: As a potential customer I want to be able to create my own artificial sun so I can have power at all times of the day",
+          "idShort": 6,
+          "shortLink": "xZ5t6skg"
+        },
+        "list": {
+          "id": "5e747a51d373282d4895d3a8",
+          "name": "W"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:18:29.913Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747c1b51da61606c5a8eb3",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": ""
+        },
+        "card": {
+          "desc": "## Acceptance Criteria\n- Equipment is selected correctly\n- Calculations based on selected equipment is accurate\n\n## Notes\n- Needs to include old/outdated equipment for existing owners.\n- Research for 42 done here.\n- Can equipment also be entered?",
+          "id": "5e747bf01694ae8297943585",
+          "name": "(16) Equipment Selection: As a potential customer I want the system to allow me to select the equipment I am considering from a provided list so that the provided calculations are accurate for my situation.",
+          "idShort": 5,
+          "shortLink": "18POlxTb"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a43e650092cfda2c323",
+          "name": "C"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:17:31.897Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747c1b58d05e75916a10b2",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "(16) Equipment Selection: As a Potential Customer I want the system to allow me to select the equipment I am considering from a provided list so that the provided calculations are accurate for my situation."
+        },
+        "card": {
+          "name": "(16) Equipment Selection: As a potential customer I want the system to allow me to select the equipment I am considering from a provided list so that the provided calculations are accurate for my situation.",
+          "id": "5e747bf01694ae8297943585",
+          "idShort": 5,
+          "shortLink": "18POlxTb"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a43e650092cfda2c323",
+          "name": "C"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:17:31.306Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747bf01694ae8297943586",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e747bf01694ae8297943585",
+          "name": "(16) Equipment Selection: As a Potential Customer I want the system to allow me to select the equipment I am considering from a provided list so that the provided calculations are accurate for my situation.",
+          "idShort": 5,
+          "shortLink": "18POlxTb"
+        },
+        "list": {
+          "id": "5e747a43e650092cfda2c323",
+          "name": "C"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:16:48.182Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747bc37f710112b53de4bc",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": "## Acceptance Criteria\n- Default values are provided for all values except Location.\n\n## Notes\n- It should be possible to get typical results by choosing a location only.\nTime for implementation: 8h\n"
+        },
+        "card": {
+          "desc": "## Acceptance Criteria\n- Default values are provided for all values except Location.\n\n## Notes\n- It should be possible to get typical results by choosing a location only.\n",
+          "id": "5e747b873ac8fd2de7277dc4",
+          "name": "(2) Default Values: As a potential customer I want the calculator tool to minimise my input by using default values where appropriate so that I am able to complete a calculation without performing intense research upfront.",
+          "idShort": 4,
+          "shortLink": "ACZEei7a"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "S"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:16:03.304Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747bb3c3878f025242fda3",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": ""
+        },
+        "card": {
+          "desc": "## Acceptance Criteria\n- Default values are provided for all values except Location.\n\n## Notes\n- It should be possible to get typical results by choosing a location only.\nTime for implementation: 8h\n",
+          "id": "5e747b873ac8fd2de7277dc4",
+          "name": "(2) Default Values: As a potential customer I want the calculator tool to minimise my input by using default values where appropriate so that I am able to complete a calculation without performing intense research upfront.",
+          "idShort": 4,
+          "shortLink": "ACZEei7a"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "S"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:15:47.544Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747b95401bde864ba3c668",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "(4) Solar Power Generation: As a Potential Customer I want the system to tell me how much solar power I might generate with the selected equipment so that I can compare this to my current power usage."
+        },
+        "card": {
+          "name": "(4) Solar Power Generation: As a potential customer I want the system to tell me how much solar power I might generate with the selected equipment so that I can compare this to my current power usage.",
+          "id": "5e747adc234cde70fc816cf6",
+          "idShort": 2,
+          "shortLink": "brdmlHFz"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "M"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:15:17.587Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747b8c59bb590f501cc60d",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "(1) Energy Usage Input: As a Potential Customer I want the system to allow me to provide information about my current electricity usage so that my current electricity need will be accounted for in the final calculation."
+        },
+        "card": {
+          "name": "(1) Energy Usage Input: As a potential customer I want the system to allow me to provide information about my current electricity usage so that my current electricity need will be accounted for in the final calculation.",
+          "id": "5e747a77118d7e4edbc01191",
+          "idShort": 1,
+          "shortLink": "6lN8NzLN"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "M"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:15:08.452Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747b873ac8fd2de7277dc5",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e747b873ac8fd2de7277dc4",
+          "name": "(2) Default Values: As a potential customer I want the calculator tool to minimise my input by using default values where appropriate so that I am able to complete a calculation without performing intense research upfront.",
+          "idShort": 4,
+          "shortLink": "ACZEei7a"
+        },
+        "list": {
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "S"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:15:03.770Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747b3ee498b762f7fafadf",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": ""
+        },
+        "card": {
+          "desc": "## Acceptance Criteria\n- The process of sharing should be completed easily. So in the final screen there will be a button \"send email\". Then the sales person can input his customer email and send the report to them.\n\n## Notes\n- Shared email in form of PDFs and/or links",
+          "id": "5e747b21930d00781c10cf8f",
+          "name": "(2) Send Report Via Email: As a sales person I want to be able to share the calculation results so that I can provide information to my customers.",
+          "idShort": 3,
+          "shortLink": "sQ6TrBM5"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "S"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:13:50.898Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747b21930d00781c10cf91",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e747b21930d00781c10cf8f",
+          "name": "(2) Send Report Via Email: As a sales person I want to be able to share the calculation results so that I can provide information to my customers.",
+          "idShort": 3,
+          "shortLink": "sQ6TrBM5"
+        },
+        "list": {
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "S"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:13:21.717Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747af2d22a764a4c05dd41",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": ""
+        },
+        "card": {
+          "desc": "## Acceptance Criteria\n- The output shows a single value for each of the following: annual average solar power generation, average power generation for each quarter, average daily power generation and peak daily power generation.\n\n## Notes\n- Power generation per quarter can be compared to the customer's electricity bills",
+          "id": "5e747adc234cde70fc816cf6",
+          "name": "(4) Solar Power Generation: As a Potential Customer I want the system to tell me how much solar power I might generate with the selected equipment so that I can compare this to my current power usage.",
+          "idShort": 2,
+          "shortLink": "brdmlHFz"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "M"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:12:34.792Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747adc234cde70fc816cf8",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e747adc234cde70fc816cf6",
+          "name": "(4) Solar Power Generation: As a Potential Customer I want the system to tell me how much solar power I might generate with the selected equipment so that I can compare this to my current power usage.",
+          "idShort": 2,
+          "shortLink": "brdmlHFz"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "M"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:12:12.824Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747aa1b838e175ea655375",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": ""
+        },
+        "card": {
+          "desc": "## Acceptance Criteria\n- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)\n- Alternative input method for typical usage based on family size & number of appliances\n- User input field for energy price ($/kWh). Default value is based on user's location.\n\n## Notes\n- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations.",
+          "id": "5e747a77118d7e4edbc01191",
+          "name": "(1) Energy Usage Input: As a Potential Customer I want the system to allow me to provide information about my current electricity usage so that my current electricity need will be accounted for in the final calculation.",
+          "idShort": 1,
+          "shortLink": "6lN8NzLN"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "M"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T08:11:13.361Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a77118d7e4edbc01196",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "card": {
+          "id": "5e747a77118d7e4edbc01191",
+          "name": "(1) Energy Usage Input: As a Potential Customer I want the system to allow me to provide information about my current electricity usage so that my current electricity need will be accounted for in the final calculation.",
+          "idShort": 1,
+          "shortLink": "6lN8NzLN"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "M"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createCard",
+      "date": "2020-03-20T08:10:31.578Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a51d373282d4895d3aa",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "list": {
+          "id": "5e747a51d373282d4895d3a8",
+          "name": "W"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createList",
+      "date": "2020-03-20T08:09:53.281Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a4d0995f074e816b8be",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "pos": 196607
+        },
+        "list": {
+          "pos": 98303,
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "S"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateList",
+      "date": "2020-03-20T08:09:49.247Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a445134b245b2d14d5c",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "list": {
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "S"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createList",
+      "date": "2020-03-20T08:09:40.985Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a43e650092cfda2c325",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "list": {
+          "id": "5e747a43e650092cfda2c323",
+          "name": "C"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createList",
+      "date": "2020-03-20T08:09:39.927Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a41c69e741d42b7774c",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "M"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createList",
+      "date": "2020-03-20T08:09:37.229Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a3b9ca1eb3ab09e2f2d",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "lime"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "blue"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:09:31.799Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a3bffbe8f0cf4dc0baa",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "purple"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "lime"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:09:31.233Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a3af761837f7b09b410",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "grey"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "purple"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:09:30.550Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a3a26df3e19b4b4bac1",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "blue"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "grey"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:09:30.061Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e747a37c996f47a3703926d",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "5e705a90ccc1582054bd05a8"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "blue"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:09:27.713Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7479f823124f1ff68c3c87",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "5e71c406ebe3dd34fe2d7650"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "5e705a90ccc1582054bd05a8"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:08:24.272Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7479f35d3046629558bf57",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "5e7425cbe57d092cdaebaef5"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "5e71c406ebe3dd34fe2d7650"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:08:19.914Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7479efc226067606e39ba0",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "lime"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "5e7425cbe57d092cdaebaef5"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:08:15.477Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7479eb7adf37283149d069",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "green"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "lime"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:08:11.655Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7479ebd11cb55f52f72095",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "blue"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "green"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:08:11.183Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7479eacf7fcc8e993b1431",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "grey"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "blue"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:08:10.389Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7479e9cba5aa1da6b67377",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "prefs": {
+            "background": "blue"
+          }
+        },
+        "board": {
+          "prefs": {
+            "background": "grey"
+          },
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "updateBoard",
+      "date": "2020-03-20T08:08:09.682Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7479df3a6b6a15880e4b3e",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello",
+          "shortLink": "VhYYh3YQ"
+        }
+      },
+      "type": "createBoard",
+      "date": "2020-03-20T08:07:59.548Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "5e747a77118d7e4edbc01191",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:15:08.441Z",
+      "desc": "## Acceptance Criteria\n- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)\n- Alternative input method for typical usage based on family size & number of appliances\n- User input field for energy price ($/kWh). Default value is based on user's location.\n\n## Notes\n- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations.",
+      "descData": {
+        "emoji": {}
+      },
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [
+        "5e7479df7669b22549554594"
+      ],
+      "idList": "5e747a41c69e741d42b7774a",
+      "idMembersVoted": [],
+      "idShort": 1,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "(1) Energy Usage Input: As a potential customer I want the system to allow me to provide information about my current electricity usage so that my current electricity need will be accounted for in the final calculation.",
+      "pos": 65535,
+      "shortLink": "6lN8NzLN",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u113gxvnipk3xbglu9+275uwp88nh@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [
+        {
+          "id": "5e7479df7669b22549554594",
+          "idBoard": "5e7479df3a6b6a15880e4b3c",
+          "name": "Potential Customer",
+          "color": "green"
+        }
+      ],
+      "shortUrl": "https://trello.com/c/6lN8NzLN",
+      "subscribed": false,
+      "url": "https://trello.com/c/6lN8NzLN/1-1-energy-usage-input-as-a-potential-customer-i-want-the-system-to-allow-me-to-provide-information-about-my-current-electricity-u",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "5e747adc234cde70fc816cf6",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:15:17.571Z",
+      "desc": "## Acceptance Criteria\n- The output shows a single value for each of the following: annual average solar power generation, average power generation for each quarter, average daily power generation and peak daily power generation.\n\n## Notes\n- Power generation per quarter can be compared to the customer's electricity bills",
+      "descData": {
+        "emoji": {}
+      },
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [
+        "5e7479df7669b22549554594"
+      ],
+      "idList": "5e747a41c69e741d42b7774a",
+      "idMembersVoted": [],
+      "idShort": 2,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "(4) Solar Power Generation: As a potential customer I want the system to tell me how much solar power I might generate with the selected equipment so that I can compare this to my current power usage.",
+      "pos": 131071,
+      "shortLink": "brdmlHFz",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u113rvchnmsfgoigom+195bsb1b9k@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [
+        {
+          "id": "5e7479df7669b22549554594",
+          "idBoard": "5e7479df3a6b6a15880e4b3c",
+          "name": "Potential Customer",
+          "color": "green"
+        }
+      ],
+      "shortUrl": "https://trello.com/c/brdmlHFz",
+      "subscribed": false,
+      "url": "https://trello.com/c/brdmlHFz/2-4-solar-power-generation-as-a-potential-customer-i-want-the-system-to-tell-me-how-much-solar-power-i-might-generate-with-the-sel",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "5e747b21930d00781c10cf8f",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:13:57.295Z",
+      "desc": "## Acceptance Criteria\n- The process of sharing should be completed easily. So in the final screen there will be a button \"send email\". Then the sales person can input his customer email and send the report to them.\n\n## Notes\n- Shared email in form of PDFs and/or links",
+      "descData": {
+        "emoji": {}
+      },
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [
+        "5e7479df7669b22549554595"
+      ],
+      "idList": "5e747a445134b245b2d14d5a",
+      "idMembersVoted": [],
+      "idShort": 3,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "(2) Send Report Via Email: As a sales person I want to be able to share the calculation results so that I can provide information to my customers.",
+      "pos": 65535,
+      "shortLink": "sQ6TrBM5",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u113zdnzzhgo8mir2n+0t8kdm57kn@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [
+        {
+          "id": "5e7479df7669b22549554595",
+          "idBoard": "5e7479df3a6b6a15880e4b3c",
+          "name": "Sales Person",
+          "color": "orange"
+        }
+      ],
+      "shortUrl": "https://trello.com/c/sQ6TrBM5",
+      "subscribed": false,
+      "url": "https://trello.com/c/sQ6TrBM5/3-2-send-report-via-email-as-a-sales-person-i-want-to-be-able-to-share-the-calculation-results-so-that-i-can-provide-information-t",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "5e747b873ac8fd2de7277dc4",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:16:11.347Z",
+      "desc": "## Acceptance Criteria\n- Default values are provided for all values except Location.\n\n## Notes\n- It should be possible to get typical results by choosing a location only.\n",
+      "descData": {
+        "emoji": {}
+      },
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [
+        "5e7479df7669b22549554594"
+      ],
+      "idList": "5e747a445134b245b2d14d5a",
+      "idMembersVoted": [],
+      "idShort": 4,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "(2) Default Values: As a potential customer I want the calculator tool to minimise my input by using default values where appropriate so that I am able to complete a calculation without performing intense research upfront.",
+      "pos": 131071,
+      "shortLink": "ACZEei7a",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u114adey57etjrpbk4+2d5ts5ueq4@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [
+        {
+          "id": "5e7479df7669b22549554594",
+          "idBoard": "5e7479df3a6b6a15880e4b3c",
+          "name": "Potential Customer",
+          "color": "green"
+        }
+      ],
+      "shortUrl": "https://trello.com/c/ACZEei7a",
+      "subscribed": false,
+      "url": "https://trello.com/c/ACZEei7a/4-2-default-values-as-a-potential-customer-i-want-the-calculator-tool-to-minimise-my-input-by-using-default-values-where-appropria",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "5e747bf01694ae8297943585",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:17:32.468Z",
+      "desc": "## Acceptance Criteria\n- Equipment is selected correctly\n- Calculations based on selected equipment is accurate\n\n## Notes\n- Needs to include old/outdated equipment for existing owners.\n- Research for 42 done here.\n- Can equipment also be entered?",
+      "descData": {
+        "emoji": {}
+      },
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [
+        "5e7479df7669b22549554594"
+      ],
+      "idList": "5e747a43e650092cfda2c323",
+      "idMembersVoted": [],
+      "idShort": 5,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "(16) Equipment Selection: As a potential customer I want the system to allow me to select the equipment I am considering from a provided list so that the provided calculations are accurate for my situation.",
+      "pos": 65535,
+      "shortLink": "18POlxTb",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u114lpmuiyaoqhduo5+1miah8hzrl@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [
+        {
+          "id": "5e7479df7669b22549554594",
+          "idBoard": "5e7479df3a6b6a15880e4b3c",
+          "name": "Potential Customer",
+          "color": "green"
+        }
+      ],
+      "shortUrl": "https://trello.com/c/18POlxTb",
+      "subscribed": false,
+      "url": "https://trello.com/c/18POlxTb/5-16-equipment-selection-as-a-potential-customer-i-want-the-system-to-allow-me-to-select-the-equipment-i-am-considering-from-a-pro",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "5e747c559bd9c978b5bfecfb",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:19:59.062Z",
+      "desc": "## Acceptance Criteria\n- Ability to customise colour and temperature of sun\n\n## Notes\n- Is there a risk of creating a black hole?",
+      "descData": {
+        "emoji": {}
+      },
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [
+        "5e7479df7669b22549554594"
+      ],
+      "idList": "5e747a51d373282d4895d3a8",
+      "idMembersVoted": [],
+      "idShort": 6,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "(32) Artificial Sun: As a potential customer I want to be able to create my own artificial sun so I can have unlimited power at all times of the day",
+      "pos": 65535,
+      "shortLink": "xZ5t6skg",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": true,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u114wouxfx5xjmhpff+2dsda8jf5p@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [
+        {
+          "id": "5e7479df7669b22549554594",
+          "idBoard": "5e7479df3a6b6a15880e4b3c",
+          "name": "Potential Customer",
+          "color": "green"
+        }
+      ],
+      "shortUrl": "https://trello.com/c/xZ5t6skg",
+      "subscribed": false,
+      "url": "https://trello.com/c/xZ5t6skg/6-32-artificial-sun-as-a-potential-customer-i-want-to-be-able-to-create-my-own-artificial-sun-so-i-can-have-unlimited-power-at-all",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "5e747ff3eed7ad4ef420a0e2",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:33:55.181Z",
+      "desc": "",
+      "descData": null,
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [],
+      "idList": "5e747fd6fa103664df6ee3d3",
+      "idMembersVoted": [],
+      "idShort": 8,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Put completed stories that have no yet been prioritised here",
+      "pos": 65535,
+      "shortLink": "r4RTXtSK",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u117ov2zxpl8am2aqq+2ks32t8sn6@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [],
+      "shortUrl": "https://trello.com/c/r4RTXtSK",
+      "subscribed": false,
+      "url": "https://trello.com/c/r4RTXtSK/8-put-completed-stories-that-have-no-yet-been-prioritised-here",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "5e74801521d69527a3e958f4",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:34:29.963Z",
+      "desc": "",
+      "descData": null,
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [],
+      "idList": "5e747fd6fa103664df6ee3d3",
+      "idMembersVoted": [],
+      "idShort": 9,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Only stories in the \"Must Have\", \"Should Have\", and \"Could Have\" lists will be downloaded",
+      "pos": 131071,
+      "shortLink": "Y1qtfOQH",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u117sgbuuix77nxb04+0a2m7spa1u@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [],
+      "shortUrl": "https://trello.com/c/Y1qtfOQH",
+      "subscribed": false,
+      "url": "https://trello.com/c/Y1qtfOQH/9-only-stories-in-the-must-have-should-have-and-could-have-lists-will-be-downloaded",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    },
+    {
+      "id": "5e747eef9953ff0d3db44f5a",
+      "address": null,
+      "checkItemStates": null,
+      "closed": false,
+      "coordinates": null,
+      "creationMethod": null,
+      "dateLastActivity": "2020-03-20T08:33:58.388Z",
+      "desc": "",
+      "descData": null,
+      "dueReminder": null,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "idLabels": [],
+      "idList": "5e747ee3ddcd9436dda729e1",
+      "idMembersVoted": [],
+      "idShort": 7,
+      "idAttachmentCover": null,
+      "limits": {
+        "attachments": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 1000,
+            "warnAt": 900
+          }
+        },
+        "checklists": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 500,
+            "warnAt": 450
+          }
+        },
+        "stickers": {
+          "perCard": {
+            "status": "ok",
+            "disableAt": 70,
+            "warnAt": 63
+          }
+        }
+      },
+      "locationName": null,
+      "manualCoverAttachment": false,
+      "name": "Put WIP stories or other cards here",
+      "pos": 65535,
+      "shortLink": "2KCHwswP",
+      "isTemplate": false,
+      "badges": {
+        "attachmentsByType": {
+          "trello": {
+            "board": 0,
+            "card": 0
+          }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false
+      },
+      "dueComplete": false,
+      "due": null,
+      "email": "liamgraham+2fut2necvqgya7lbqn2+2u116wpl995avmwgday+0rrvx2r474@boards.trello.com",
+      "idChecklists": [],
+      "idMembers": [],
+      "labels": [],
+      "shortUrl": "https://trello.com/c/2KCHwswP",
+      "subscribed": false,
+      "url": "https://trello.com/c/2KCHwswP/7-put-wip-stories-or-other-cards-here",
+      "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "light"
+      },
+      "attachments": [],
+      "pluginData": [],
+      "customFieldItems": []
+    }
+  ],
+  "labels": [
+    {
+      "id": "5e7479df7669b22549554594",
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "name": "Potential Customer",
+      "color": "green"
+    },
+    {
+      "id": "5e7479df7669b22549554595",
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "name": "Sales Person",
+      "color": "orange"
+    },
+    {
+      "id": "5e7479df7669b22549554591",
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "name": "",
+      "color": "red"
+    },
+    {
+      "id": "5e7479df7669b22549554596",
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "name": "",
+      "color": "yellow"
+    },
+    {
+      "id": "5e7479df7669b2254955459b",
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "name": "",
+      "color": "blue"
+    },
+    {
+      "id": "5e7479df7669b2254955459c",
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "name": "",
+      "color": "purple"
+    }
+  ],
+  "lists": [
+    {
+      "id": "5e747a41c69e741d42b7774a",
+      "name": "Must Have",
+      "closed": false,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "pos": 65535,
+      "subscribed": false,
+      "softLimit": null,
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4500
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 900000
+          }
+        }
+      },
+      "creationMethod": null
+    },
+    {
+      "id": "5e747a445134b245b2d14d5a",
+      "name": "Should Have",
+      "closed": false,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "pos": 98303,
+      "subscribed": false,
+      "softLimit": null,
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4500
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 900000
+          }
+        }
+      },
+      "creationMethod": null
+    },
+    {
+      "id": "5e747a43e650092cfda2c323",
+      "name": "Could Have",
+      "closed": false,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "pos": 131071,
+      "subscribed": false,
+      "softLimit": null,
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4500
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 900000
+          }
+        }
+      },
+      "creationMethod": null
+    },
+    {
+      "id": "5e747a51d373282d4895d3a8",
+      "name": "Won't Have",
+      "closed": false,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "pos": 196607,
+      "subscribed": false,
+      "softLimit": null,
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4500
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 900000
+          }
+        }
+      },
+      "creationMethod": null
+    },
+    {
+      "id": "5e747fd6fa103664df6ee3d3",
+      "name": "No Priority",
+      "closed": false,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "pos": 229375,
+      "subscribed": false,
+      "softLimit": null,
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4500
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 900000
+          }
+        }
+      },
+      "creationMethod": null
+    },
+    {
+      "id": "5e747ee3ddcd9436dda729e1",
+      "name": "Other",
+      "closed": false,
+      "idBoard": "5e7479df3a6b6a15880e4b3c",
+      "pos": 262143,
+      "subscribed": false,
+      "softLimit": null,
+      "limits": {
+        "cards": {
+          "openPerList": {
+            "status": "ok",
+            "disableAt": 5000,
+            "warnAt": 4500
+          },
+          "totalPerList": {
+            "status": "ok",
+            "disableAt": 1000000,
+            "warnAt": 900000
+          }
+        }
+      },
+      "creationMethod": null
+    }
+  ],
+  "members": [
+    {
+      "id": "51558dbde268cf811e002c9e",
+      "activityBlocked": false,
+      "avatarHash": null,
+      "avatarUrl": null,
+      "bio": "",
+      "bioData": null,
+      "confirmed": true,
+      "fullName": "Liam Graham",
+      "idEnterprise": null,
+      "idEnterprisesDeactivated": [],
+      "idMemberReferrer": null,
+      "idPremOrgsAdmin": [],
+      "initials": "LG",
+      "memberType": "normal",
+      "nonPublic": {},
+      "nonPublicAvailable": false,
+      "products": [],
+      "url": "https://trello.com/liamgraham",
+      "username": "liamgraham",
+      "status": "disconnected"
+    }
+  ],
+  "checklists": [],
+  "customFields": [],
+  "memberships": [
+    {
+      "id": "5e7479df3a6b6a15880e4b3d",
+      "idMember": "51558dbde268cf811e002c9e",
+      "memberType": "admin",
+      "unconfirmed": false,
+      "deactivated": false
+    }
+  ],
+  "pluginData": []
+}
