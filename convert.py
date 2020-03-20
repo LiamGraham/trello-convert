@@ -17,29 +17,24 @@ e.g. "(2) Basic Entry Form: As a potential customer, I want to..."
 Trello description format:
 "
 ## Acceptance Criteria
-- 
-- 
+- <criterion-1> 
+- <criterion-2>
 ...
-- 
+- <criterion-n> 
 
 ## Notes
--
--
+- <note-1>
+- <note-2>
 ...
-- 
+- <note-n> 
 "
 
 - Specify priority with lists
 - Add role as a tag (not a part of template)
-- Generate story ID based on ordering
 
 JSON fields:
 - desc - Description (acceptance criteria and notes)
 - name - Story content (points, title and body)
-
-Steps:
-- Load provided JSON file
-- 
 """
 
 import slides
