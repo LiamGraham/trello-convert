@@ -1,3 +1,8 @@
+"""
+Adapted from makeslides.py from the "User Stories Template Tool" created by a CSSE3002
+student in 2018.
+"""
+
 from pptx import Presentation
 from pptx.util import Cm, Pt
 from pptx.enum.shapes import MSO_SHAPE
