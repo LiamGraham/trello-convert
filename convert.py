@@ -75,10 +75,27 @@ class UserStory:
 
 
 def validate_card(card: dict) -> bool:
+    """ Returns True if the given Trello card JSON object conforms to the required story format, otherwise returns False.  
+    
+    Arguments: 
+        card {dict} -- Trello card JSON to be validated
+
+    Returns:
+        bool - True if given card is valid, otherwise False
+    """
     return CARD_REGEX.match(card["name"]) is not None
 
 
 def parse_card(card: dict, lists: dict) -> UserStory:
+    """ Returns a UserStory object parsed from the given Trello card JSON object. 
+
+    Arguments:
+        card {dict} -- Trello card JSON object
+        lsits {dict} -- Mapping of Trello list ids to list names
+    
+    Returns:
+        UserStory - Parsed UserStory object
+    """
     content = card["name"]
     desc = card["desc"]
     id_ = str(card["idShort"])
@@ -133,11 +150,15 @@ def main(filename: str):
     """
     with open(filename, "r") as f:
         data = json.load(f)
+    print("Collecting stories")
     stories = collect_stories(data)
-    slides.create_slides(stories)
+    print(f"Collected {len(stories)} valid stories")
+    print("Creating pptx file")
+    slides.create_slides(stories, "stories.pptx")
+    print("Done")
 
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        raise ValueError("Must provide path to JSON file")
+        raise ValueError("Usage: trello-convert <json-file>")
     main(sys.argv[1])

@@ -19,9 +19,8 @@ SLD_LAYOUT_BLANK = 6
 BULLET  = chr(8226)
 
 
-def create_slides(stories):
+def create_slides(stories, filename):
     for story in stories:
-        print(story)
 
         slide_layout = prs.slide_layouts[SLD_LAYOUT_BLANK]
         slide = prs.slides.add_slide(slide_layout)
@@ -304,4 +303,4 @@ def create_slides(stories):
             p.text = '\t'+BULLET+' '+para_str
 
 
-    prs.save('example.pptx')
+    prs.save(filename)
