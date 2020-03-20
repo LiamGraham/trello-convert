@@ -70,8 +70,8 @@ class UserStory:
     body: str
     priority: str
     points: str
-    criteria: str=""
-    notes: str=""
+    criteria: List[str]
+    notes: List[str]
 
 
 def validate_card(card: dict) -> bool:
@@ -104,7 +104,7 @@ def parse_card(card: dict, lists: dict) -> UserStory:
     match = CARD_REGEX.match(content)
     points, title, body = match.groups()
 
-    return UserStory(id_, title, body, priority, points) 
+    return UserStory(id_, title, body, priority, points, ["Criterion 1"], ["Note 1"]) 
 
 
 def collect_lists(data: List[dict]) -> dict:
