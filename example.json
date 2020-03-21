@@ -163,17 +163,414 @@
     "black": ""
   },
   "powerUps": [],
-  "dateLastActivity": "2020-03-20T08:34:29.963Z",
-  "dateLastView": "2020-03-20T08:34:30.093Z",
+  "dateLastActivity": "2020-03-21T03:21:49.701Z",
+  "dateLastView": "2020-03-21T03:26:50.919Z",
   "shortUrl": "https://trello.com/b/VhYYh3YQ",
   "idTags": [],
   "datePluginDisable": null,
   "creationMethod": null,
-  "ixUpdate": "184",
+  "ixUpdate": "219",
   "templateGallery": null,
   "enterpriseOwned": false,
   "idBoardSource": null,
   "actions": [
+    {
+      "id": "5e75884d8c1684879308b9c0",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "Put completed stories that have no yet been prioritised here"
+        },
+        "card": {
+          "name": "Put completed stories that have not yet been prioritised here",
+          "id": "5e747ff3eed7ad4ef420a0e2",
+          "idShort": 8,
+          "shortLink": "r4RTXtSK"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747fd6fa103664df6ee3d3",
+          "name": "No Priority"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T03:21:49.712Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e757f9047010f3583efb7c3",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "Only stories in the prioritised lists will be downloaded"
+        },
+        "card": {
+          "name": "Only stories in the prioritised lists will be converted",
+          "id": "5e74801521d69527a3e958f4",
+          "idShort": 9,
+          "shortLink": "Y1qtfOQH"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747fd6fa103664df6ee3d3",
+          "name": "No Priority"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T02:44:32.088Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e757a0cf7e9473d2a1dea4b",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": "## Acceptance Criteria\n- Ability to customise colour and temperature of sun\n\n## Notes\n- Is there a risk of creating a black hole?"
+        },
+        "card": {
+          "desc": "# Acceptance Criteria\n- Ability to customise colour and temperature of sun\n\n# Notes\n- Is there a risk of creating a black hole?",
+          "id": "5e747c559bd9c978b5bfecfb",
+          "name": "(32) Artificial Sun: As a potential customer I want to be able to create my own artificial sun so I can have unlimited power at all times of the day",
+          "idShort": 6,
+          "shortLink": "xZ5t6skg"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a51d373282d4895d3a8",
+          "name": "Won't Have"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T02:21:00.825Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e757a004ead674a9f975a32",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": "## Acceptance Criteria\n- Equipment is selected correctly\n- Calculations based on selected equipment is accurate\n\n## Notes\n- Needs to include old/outdated equipment for existing owners.\n- Research for 42 done here.\n- Can equipment also be entered?"
+        },
+        "card": {
+          "desc": "# Acceptance Criteria\n- Equipment is selected correctly\n- Calculations based on selected equipment is accurate\n\n# Notes\n- Needs to include old/outdated equipment for existing owners.\n- Research for 42 done here.\n- Can equipment also be entered?",
+          "id": "5e747bf01694ae8297943585",
+          "name": "(16) Equipment Selection: As a potential customer I want the system to allow me to select the equipment I am considering from a provided list so that the provided calculations are accurate for my situation.",
+          "idShort": 5,
+          "shortLink": "18POlxTb"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a43e650092cfda2c323",
+          "name": "Could Have"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T02:20:48.360Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7579fc4189ff5f466a3da7",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": "## Acceptance Criteria\n- Default values are provided for all values except Location.\n\n## Notes\n- It should be possible to get typical results by choosing a location only.\n"
+        },
+        "card": {
+          "desc": "# Acceptance Criteria\n- Default values are provided for all values except Location.\n\n# Notes\n- It should be possible to get typical results by choosing a location only.\n",
+          "id": "5e747b873ac8fd2de7277dc4",
+          "name": "(2) Default Values: As a potential customer I want the calculator tool to minimise my input by using default values where appropriate so that I am able to complete a calculation without performing intense research upfront.",
+          "idShort": 4,
+          "shortLink": "ACZEei7a"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "Should Have"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T02:20:44.203Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7579f8f53a412459bd0f64",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": "## Acceptance Criteria\n- The process of sharing should be completed easily. So in the final screen there will be a button \"send email\". Then the sales person can input his customer email and send the report to them.\n\n## Notes\n- Shared email in form of PDFs and/or links"
+        },
+        "card": {
+          "desc": "# Acceptance Criteria\n- The process of sharing should be completed easily. So in the final screen there will be a button \"send email\". Then the sales person can input his customer email and send the report to them.\n\n# Notes\n- Shared email in form of PDFs and/or links",
+          "id": "5e747b21930d00781c10cf8f",
+          "name": "(2) Send Report Via Email: As a sales person I want to be able to share the calculation results so that I can provide information to my customers.",
+          "idShort": 3,
+          "shortLink": "sQ6TrBM5"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a445134b245b2d14d5a",
+          "name": "Should Have"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T02:20:40.330Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7579f337b2de06cd19ac07",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": "## Acceptance Criteria\n- The output shows a single value for each of the following: annual average solar power generation, average power generation for each quarter, average daily power generation and peak daily power generation.\n\n## Notes\n- Power generation per quarter can be compared to the customer's electricity bills"
+        },
+        "card": {
+          "desc": "# Acceptance Criteria\n- The output shows a single value for each of the following: annual average solar power generation, average power generation for each quarter, average daily power generation and peak daily power generation.\n\n# Notes\n- Power generation per quarter can be compared to the customer's electricity bills",
+          "id": "5e747adc234cde70fc816cf6",
+          "name": "(4) Solar Power Generation: As a potential customer I want the system to tell me how much solar power I might generate with the selected equipment so that I can compare this to my current power usage.",
+          "idShort": 2,
+          "shortLink": "brdmlHFz"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "Must Have"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T02:20:35.856Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7579e814041a78f22004e4",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": "# Acceptance Criteria\n- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)\n- Alternative input method for typical usage based on family size & number of appliances\n- User input field for energy price ($/kWh). Default value is based on user's location.\n\n## Notes\n- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations."
+        },
+        "card": {
+          "desc": "# Acceptance Criteria\n- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)\n- Alternative input method for typical usage based on family size & number of appliances\n- User input field for energy price ($/kWh). Default value is based on user's location.\n\n# Notes\n- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations.",
+          "id": "5e747a77118d7e4edbc01191",
+          "name": "(1) Energy Usage Input: As a potential customer I want the system to allow me to provide information about my current electricity usage so that my current electricity need will be accounted for in the final calculation.",
+          "idShort": 1,
+          "shortLink": "6lN8NzLN"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "Must Have"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T02:20:24.312Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e7579e4cdb94c46e55fd194",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "desc": "## Acceptance Criteria\n- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)\n- Alternative input method for typical usage based on family size & number of appliances\n- User input field for energy price ($/kWh). Default value is based on user's location.\n\n## Notes\n- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations."
+        },
+        "card": {
+          "desc": "# Acceptance Criteria\n- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)\n- Alternative input method for typical usage based on family size & number of appliances\n- User input field for energy price ($/kWh). Default value is based on user's location.\n\n## Notes\n- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations.",
+          "id": "5e747a77118d7e4edbc01191",
+          "name": "(1) Energy Usage Input: As a potential customer I want the system to allow me to provide information about my current electricity usage so that my current electricity need will be accounted for in the final calculation.",
+          "idShort": 1,
+          "shortLink": "6lN8NzLN"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747a41c69e741d42b7774a",
+          "name": "Must Have"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-21T02:20:20.823Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
+    {
+      "id": "5e74b11ba269425dc20901bf",
+      "idMemberCreator": "51558dbde268cf811e002c9e",
+      "data": {
+        "old": {
+          "name": "Only stories in the \"Must Have\", \"Should Have\", and \"Could Have\" lists will be downloaded"
+        },
+        "card": {
+          "name": "Only stories in the prioritised lists will be downloaded",
+          "id": "5e74801521d69527a3e958f4",
+          "idShort": 9,
+          "shortLink": "Y1qtfOQH"
+        },
+        "board": {
+          "id": "5e7479df3a6b6a15880e4b3c",
+          "name": "CSSE3002 Example Trello Board",
+          "shortLink": "VhYYh3YQ"
+        },
+        "list": {
+          "id": "5e747fd6fa103664df6ee3d3",
+          "name": "No Priority"
+        }
+      },
+      "type": "updateCard",
+      "date": "2020-03-20T12:03:39.955Z",
+      "limits": {},
+      "memberCreator": {
+        "id": "51558dbde268cf811e002c9e",
+        "activityBlocked": false,
+        "avatarHash": null,
+        "avatarUrl": null,
+        "fullName": "Liam Graham",
+        "idMemberReferrer": null,
+        "initials": "LG",
+        "nonPublic": {},
+        "nonPublicAvailable": false,
+        "username": "liamgraham"
+      }
+    },
     {
       "id": "5e74801621d69527a3e958f6",
       "idMemberCreator": "51558dbde268cf811e002c9e",
@@ -1825,8 +2222,8 @@
       "closed": false,
       "coordinates": null,
       "creationMethod": null,
-      "dateLastActivity": "2020-03-20T08:15:08.441Z",
-      "desc": "## Acceptance Criteria\n- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)\n- Alternative input method for typical usage based on family size & number of appliances\n- User input field for energy price ($/kWh). Default value is based on user's location.\n\n## Notes\n- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations.",
+      "dateLastActivity": "2020-03-21T02:20:24.303Z",
+      "desc": "# Acceptance Criteria\n- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)\n- Alternative input method for typical usage based on family size & number of appliances\n- User input field for energy price ($/kWh). Default value is based on user's location.\n\n# Notes\n- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations.",
       "descData": {
         "emoji": {}
       },
@@ -1923,8 +2320,8 @@
       "closed": false,
       "coordinates": null,
       "creationMethod": null,
-      "dateLastActivity": "2020-03-20T08:15:17.571Z",
-      "desc": "## Acceptance Criteria\n- The output shows a single value for each of the following: annual average solar power generation, average power generation for each quarter, average daily power generation and peak daily power generation.\n\n## Notes\n- Power generation per quarter can be compared to the customer's electricity bills",
+      "dateLastActivity": "2020-03-21T02:20:35.843Z",
+      "desc": "# Acceptance Criteria\n- The output shows a single value for each of the following: annual average solar power generation, average power generation for each quarter, average daily power generation and peak daily power generation.\n\n# Notes\n- Power generation per quarter can be compared to the customer's electricity bills",
       "descData": {
         "emoji": {}
       },
@@ -2021,8 +2418,8 @@
       "closed": false,
       "coordinates": null,
       "creationMethod": null,
-      "dateLastActivity": "2020-03-20T08:13:57.295Z",
-      "desc": "## Acceptance Criteria\n- The process of sharing should be completed easily. So in the final screen there will be a button \"send email\". Then the sales person can input his customer email and send the report to them.\n\n## Notes\n- Shared email in form of PDFs and/or links",
+      "dateLastActivity": "2020-03-21T02:20:40.317Z",
+      "desc": "# Acceptance Criteria\n- The process of sharing should be completed easily. So in the final screen there will be a button \"send email\". Then the sales person can input his customer email and send the report to them.\n\n# Notes\n- Shared email in form of PDFs and/or links",
       "descData": {
         "emoji": {}
       },
@@ -2119,8 +2516,8 @@
       "closed": false,
       "coordinates": null,
       "creationMethod": null,
-      "dateLastActivity": "2020-03-20T08:16:11.347Z",
-      "desc": "## Acceptance Criteria\n- Default values are provided for all values except Location.\n\n## Notes\n- It should be possible to get typical results by choosing a location only.\n",
+      "dateLastActivity": "2020-03-21T02:20:44.191Z",
+      "desc": "# Acceptance Criteria\n- Default values are provided for all values except Location.\n\n# Notes\n- It should be possible to get typical results by choosing a location only.\n",
       "descData": {
         "emoji": {}
       },
@@ -2217,8 +2614,8 @@
       "closed": false,
       "coordinates": null,
       "creationMethod": null,
-      "dateLastActivity": "2020-03-20T08:17:32.468Z",
-      "desc": "## Acceptance Criteria\n- Equipment is selected correctly\n- Calculations based on selected equipment is accurate\n\n## Notes\n- Needs to include old/outdated equipment for existing owners.\n- Research for 42 done here.\n- Can equipment also be entered?",
+      "dateLastActivity": "2020-03-21T02:20:48.349Z",
+      "desc": "# Acceptance Criteria\n- Equipment is selected correctly\n- Calculations based on selected equipment is accurate\n\n# Notes\n- Needs to include old/outdated equipment for existing owners.\n- Research for 42 done here.\n- Can equipment also be entered?",
       "descData": {
         "emoji": {}
       },
@@ -2315,8 +2712,8 @@
       "closed": false,
       "coordinates": null,
       "creationMethod": null,
-      "dateLastActivity": "2020-03-20T08:19:59.062Z",
-      "desc": "## Acceptance Criteria\n- Ability to customise colour and temperature of sun\n\n## Notes\n- Is there a risk of creating a black hole?",
+      "dateLastActivity": "2020-03-21T02:21:00.812Z",
+      "desc": "# Acceptance Criteria\n- Ability to customise colour and temperature of sun\n\n# Notes\n- Is there a risk of creating a black hole?",
       "descData": {
         "emoji": {}
       },
@@ -2413,7 +2810,7 @@
       "closed": false,
       "coordinates": null,
       "creationMethod": null,
-      "dateLastActivity": "2020-03-20T08:33:55.181Z",
+      "dateLastActivity": "2020-03-21T03:21:49.701Z",
       "desc": "",
       "descData": null,
       "dueReminder": null,
@@ -2448,7 +2845,7 @@
       },
       "locationName": null,
       "manualCoverAttachment": false,
-      "name": "Put completed stories that have no yet been prioritised here",
+      "name": "Put completed stories that have not yet been prioritised here",
       "pos": 65535,
       "shortLink": "r4RTXtSK",
       "isTemplate": false,
@@ -2481,7 +2878,7 @@
       "labels": [],
       "shortUrl": "https://trello.com/c/r4RTXtSK",
       "subscribed": false,
-      "url": "https://trello.com/c/r4RTXtSK/8-put-completed-stories-that-have-no-yet-been-prioritised-here",
+      "url": "https://trello.com/c/r4RTXtSK/8-put-completed-stories-that-have-not-yet-been-prioritised-here",
       "cover": {
         "idAttachment": null,
         "color": null,
@@ -2500,7 +2897,7 @@
       "closed": false,
       "coordinates": null,
       "creationMethod": null,
-      "dateLastActivity": "2020-03-20T08:34:29.963Z",
+      "dateLastActivity": "2020-03-21T02:44:32.078Z",
       "desc": "",
       "descData": null,
       "dueReminder": null,
@@ -2535,7 +2932,7 @@
       },
       "locationName": null,
       "manualCoverAttachment": false,
-      "name": "Only stories in the \"Must Have\", \"Should Have\", and \"Could Have\" lists will be downloaded",
+      "name": "Only stories in the prioritised lists will be converted",
       "pos": 131071,
       "shortLink": "Y1qtfOQH",
       "isTemplate": false,
@@ -2568,7 +2965,7 @@
       "labels": [],
       "shortUrl": "https://trello.com/c/Y1qtfOQH",
       "subscribed": false,
-      "url": "https://trello.com/c/Y1qtfOQH/9-only-stories-in-the-must-have-should-have-and-could-have-lists-will-be-downloaded",
+      "url": "https://trello.com/c/Y1qtfOQH/9-only-stories-in-the-prioritised-lists-will-be-converted",
       "cover": {
         "idAttachment": null,
         "color": null,
