@@ -41,14 +41,25 @@ as follows:
 
 ```
 # Acceptance Criteria
-- 
-- 
-- 
+- <criterion-1> 
+- <criterion-2>
+- <criterion-3>
 
 # Notes
-- 
-- 
--
+- <note-1> 
+- <note-2>
+- <note-3>
+```
+
+e.g.
+
+```
+# Acceptance Criteria
+- User input field for energy usage in kWh, including options for usage distribution (i.e. predominant usage is night time or day time)
+- Alternative input method for typical usage based on family size & number of appliances
+
+# Notes
+- The electricity usage is used to calculate the amount of energy usage which will ultimately be replaced by the solar system. This is required for financial calculations.
 ```
 
 Story cards should be place in lists corresponding to their priority ("Must Have", "Should
