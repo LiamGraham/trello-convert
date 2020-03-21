@@ -44,5 +44,10 @@ Story cards should be place in lists corresponding to their priority ("Must Have
 Have", "Could Have", and "Won't Have"). "Must Have" stories will be place in the list
 named "Must Have", and so on.
 
+The story ID is based on the position of the story card on the board. Cards are numbered
+from top to bottom and left to right - i.e. The first card in the "Must Have" list is
+#1, the second card is #2, and the bottom card in the "Won't Have" list is #n for n
+story cards. 
+
 Refer to the [example Trello board](https://trello.com/b/VhYYh3YQ/csse3002-example-trello-board) to see what a correctly formatted and organised board
 looks like.

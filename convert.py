@@ -16,13 +16,13 @@ e.g. "(2) Basic Entry Form: As a potential customer, I want to..."
 
 Trello description format:
 "
-## Acceptance Criteria
+# Acceptance Criteria
 - <criterion-1> 
 - <criterion-2>
 ...
 - <criterion-n> 
 
-## Notes
+# Notes
 - <note-1>
 - <note-2>
 ...
@@ -55,8 +55,8 @@ PRIORITIES = {
 
 
 CARD_PATTERN = r"\(([0-9^\s]+)\) ([\S\s^:]+): ([\S\s]+)"
-CRITERIA_PATTERN = r"## Acceptance Criteria\n(- [\S\s^\n]+[\n])+"
-NOTES_PATTERN = r"## Notes\n(- [\w\s^\n]+[\n]*)+"
+CRITERIA_PATTERN = r"# Acceptance Criteria\n(- [\S\s^\n]+[\n])+"
+NOTES_PATTERN = r"# Notes\n(- [\w\s^\n]+[\n]*)+"
 
 CARD_REGEX = re.compile(CARD_PATTERN)
 CRITERIA_REGEX = re.compile(CRITERIA_PATTERN)
