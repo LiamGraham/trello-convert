@@ -101,10 +101,11 @@ def parse_card(card: dict, lists: dict) -> UserStory:
     id_ = str(card["idShort"])
     priority = PRIORITIES[lists[card["idList"]]]
 
-    match = CARD_REGEX.match(content)
-    points, title, body = match.groups()
+    points, title, body = CARD_REGEX.match(content).groups()
+    criteria = ["Criterion 1"]
+    notes = ["Note 1"]
 
-    return UserStory(id_, title, body, priority, points, ["Criterion 1"], ["Note 1"]) 
+    return UserStory(id_, title, body, priority, points, criteria, notes) 
 
 
 def collect_lists(data: List[dict]) -> dict:
