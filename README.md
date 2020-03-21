@@ -5,11 +5,22 @@
 Download the JSON data for your Trello board by accessing `Show Menu/More/Settings/Print
 and Export/Export as JSON`. 
 
+### Linux
+
 ```bash
 >>> git clone https://github.com/LiamGraham/trello-convert
 >>> cd trello-convert
 >>> pip install -r requirements.txt
 >>> ./convert.py path/to/trello-json
+```
+
+### Windows
+
+```bash
+>>> git clone https://github.com/LiamGraham/trello-convert
+>>> cd trello-convert
+>>> pip install -r requirements.txt
+>>> python convert.py path/to/trello-json
 ```
 
 ## Trello Board Structure
