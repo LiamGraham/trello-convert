@@ -132,7 +132,12 @@ def collect_stories(data: List[dict]) -> List[UserStory]:
     cards = data["cards"]
     lists = collect_lists(data)
     stories = []
-    
+
+    # Check all standard priority lists exist 
+    for priority in PRIORITIES:
+        if priority not in lists.values():
+            print(f"Warning: missing \"{priority}\" list") 
+
     for card in cards:
         if lists[card["idList"]] not in PRIORITIES:
             continue
