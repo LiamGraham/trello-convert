@@ -53,7 +53,7 @@ e.g.
 be replaced by the solar system. This is required for financial calculations.
 ```
 
-Story cards should be place in lists corresponding to their priority ("Must Have", "Should
+Story cards should be placed in lists corresponding to their priority ("Must Have", "Should
 Have", "Could Have", and "Won't Have"). "Must Have" stories will be place in the list
 named "Must Have", and so on.
 
