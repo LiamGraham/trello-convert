@@ -47,10 +47,10 @@ import re
 
 
 PRIORITIES = {
-    "Must Have": "M",
-    "Should Have": "S",
-    "Could Have": "C",
-    "Won't Have": "W",
+    "must have": "M",
+    "should have": "S",
+    "could have": "C",
+    "won't have": "W",
 }
 
 
@@ -132,7 +132,7 @@ def collect_lists(data: List[dict]) -> dict:
     Returns:
         dict -- Mapping of Trello list ids to list names
     """
-    return {x["id"]:x["name"] for x in data["lists"]}
+    return {x["id"]:x["name"].lower() for x in data["lists"]}
 
 
 def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
