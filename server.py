@@ -45,7 +45,7 @@ def upload_file(invalid_cards=None):
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             slides_filename, invalid = convert_file(filename)
             invalid = [f"\"{(x[:100] + '...') if len(x) > 100 else x}\"" for x in invalid]
-            return render_template("index.html", invalid_cards=invalid, download=os.path.join(CONVERT_FOLDER, slides_filename))
+            return render_template("index.html", invalid_cards=invalid, download=url_for("converted_file", filename=slides_filename))
     print("Render")
     return render_template("index.html")
 
