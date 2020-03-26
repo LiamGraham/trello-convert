@@ -54,7 +54,7 @@ PRIORITIES = {
 }
 
 
-CARD_PATTERN = r"\(([0-9^\s]+)\) ([\S\s^:]+): ([\S\s]+)"
+CARD_PATTERN = r"\(([0-9^\s]+)\)([\S\s^:]+):([\S\s]+)"
 CRITERIA_PATTERN = r"# Acceptance Criteria\n(- [\S\s^\n]+[\n])+"
 NOTES_PATTERN = r"# Notes\n(- [\w\s^\n]+[\n]*)+"
 
