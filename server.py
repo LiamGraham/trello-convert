@@ -43,9 +43,12 @@ def upload_file():
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            slides_filename, invalid = convert_file(filename)
-            invalid = [f"\"{(x[:100] + '...') if len(x) > 100 else x}\"" for x in invalid]
-            return render_template("index.html", invalid_cards=invalid, download=url_for("converted_file", filename=slides_filename))
+            try:
+                slides_filename, invalid = convert_file(filename)
+                invalid = [f"\"{(x[:100] + '...') if len(x) > 100 else x}\"" for x in invalid]
+                return render_template("index.html", invalid_cards=invalid, download=url_for("converted_file", filename=slides_filename))
+            except:
+                return render_template("index.html", error_message="Whoops! Looks like there was an error. Send your JSON file to Liam on Slack.")
     print("Render")
     return render_template("index.html")
 

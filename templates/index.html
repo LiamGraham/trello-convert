@@ -57,6 +57,12 @@
               Upload your Trello JSON file
             </p>
 
+            {% if error_message %}
+              <div class="error-card">
+                {{ error_message }}
+              </div>
+            {% endif %}
+
             {% if invalid_cards %}
               <div class="error-card">
                 <div class="error-card-title">The following stories are invalid:</div>
