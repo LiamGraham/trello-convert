@@ -32,13 +32,11 @@ def upload_file():
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
-            flash('No file part')
             return redirect(request.url)
         file = request.files['file']
         # if user does not select file, browser also
         # submit an empty part without filename
         if file.filename == '':
-            flash('No selected file')
             return redirect(request.url)
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
@@ -49,7 +47,6 @@ def upload_file():
                 return render_template("index.html", invalid_cards=invalid, download=url_for("converted_file", filename=slides_filename))
             except:
                 return render_template("index.html", error_message="Whoops! Looks like there was an error. Send your JSON file to Liam on Slack.")
-    print("Render")
     return render_template("index.html")
 
 
