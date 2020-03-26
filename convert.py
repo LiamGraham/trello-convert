@@ -154,7 +154,7 @@ def main(filename: str):
     Arguments:
         filename {str} -- Name of JSON file to be converted
     """
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding='utf-8') as f:
         data = json.load(f)
     print("Collecting stories")
     stories = collect_stories(data)
