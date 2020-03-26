@@ -39,7 +39,7 @@ def upload_file():
         if file.filename == '':
             return redirect(request.url)
         if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
+            filename = secure_filename(f"data-{uuid.uuid4().hex[:10]}.json")
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             try:
                 slides_filename, invalid = convert_file(filename)
