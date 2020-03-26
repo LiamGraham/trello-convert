@@ -42,7 +42,7 @@ import slides
 from dataclasses import dataclass
 import sys
 import json
-from typing import List, Dict
+from typing import List, Dict, Tuple
 import re
 
 
@@ -85,6 +85,18 @@ def validate_card(card: dict) -> bool:
     """
     return CARD_REGEX.match(card["name"]) is not None
 
+def parse_bullets(target: str) -> Tuple[str, List[str]]:
+    """Returns the list of bullet points from a string of the the format "<heading>\n- <bullet-1>\n- <bullet-2>..."  
+    
+    Arguments:
+        target {str} -- String to be parsed
+    
+    Returns:
+        List[str] -- List of extracted bullet points (without leading hyphen)
+    """
+    elements = target.split("\n")
+    return [x.replace("- ", "", 1) for x in elements[1:]]
+
 
 def parse_card(card: dict, lists: dict) -> UserStory:
     """ Returns a UserStory object parsed from the given Trello card JSON object. 
@@ -97,13 +109,16 @@ def parse_card(card: dict, lists: dict) -> UserStory:
         UserStory - Parsed UserStory object
     """
     content = card["name"]
-    desc = card["desc"]
+    desc = card["desc"].split("\n\n")
     id_ = str(card["idShort"])
     priority = PRIORITIES[lists[card["idList"]]]
 
     points, title, body = CARD_REGEX.match(content).groups()
-    criteria = ["Criterion 1"]
-    notes = ["Note 1"]
+
+    criteria = parse_bullets(desc[0])
+    notes = []
+    if len(desc) > 1:
+        notes = parse_bullets(desc[1])
 
     return UserStory(id_, title, body, priority, points, criteria, notes) 
 
@@ -120,18 +135,23 @@ def collect_lists(data: List[dict]) -> dict:
     return {x["id"]:x["name"] for x in data["lists"]}
 
 
-def collect_stories(data: List[dict]) -> List[UserStory]:
-    """Returns a list of UserStory objects extracted from the given Trello JSON data.
+def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
+    """Returns a list of UserStory objects extracted from the Trello JSON file having the given name, as well as a list of invalid cards.
     
     Arguments:
-        data {List[dict]} -- JSON data from which stories will be extracted
+        filename {str} -- Name of Trello JSON file containing cards to be parsed
     
     Returns:
         List[UserStory] -- List of parsed UserStory objects
+        List[str] -- Text of invalid cards that could not be parsed as UserStory objects
     """
+    with open(filename, "r", encoding='utf-8') as f:
+        data = json.load(f)
+    
     cards = data["cards"]
     lists = collect_lists(data)
     stories = []
+    invalid = []
 
     # Check all standard priority lists exist 
     for priority in PRIORITIES:
@@ -142,10 +162,15 @@ def collect_stories(data: List[dict]) -> List[UserStory]:
         if lists[card["idList"]] not in PRIORITIES:
             continue
         if not validate_card(card):
-            print(f"Card is not valid. Check that it has the correct format: \"{card['name']}\"")
-            continue 
-        stories.append(parse_card(card, lists))
-    return stories
+            print(f"Card body is not valid. Check that it has the correct format: \"{card['name']}\"")
+            invalid.append(card['name'])
+            continue
+        try:
+            stories.append(parse_card(card, lists))
+        except:
+            print(f"Parsing failed: \"{card['name']}\"")
+            invalid.append(card['name'])
+    return stories, invalid
 
 
 def main(filename: str):
@@ -154,10 +179,8 @@ def main(filename: str):
     Arguments:
         filename {str} -- Name of JSON file to be converted
     """
-    with open(filename, "r", encoding='utf-8') as f:
-        data = json.load(f)
     print("Collecting stories")
-    stories = collect_stories(data)
+    stories, _ = collect_stories(filename)
     print(f"Collected {len(stories)} valid stories")
     print("Creating pptx file")
     slides.create_slides(stories, "stories.pptx")

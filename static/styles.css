@@ -63,5 +63,30 @@
 }
 
 .file-upload {
-  margin-bottom: 30px;
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.error-card{
+  min-height: 1em;
+  background: rgb(255, 235, 235);
+  padding: 1em;
+  min-width: 25%;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.error-card ul {
+  padding-left: inherit;
+  margin: 0;
+  font-style: italic;
+}
+
+.mdl-button {
+  margin-right: 5px;
+}
+
+#download-button {
+  background: #3f51b5;
 }

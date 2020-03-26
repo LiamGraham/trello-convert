@@ -53,22 +53,40 @@
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
             <h3>Convert</h3>
-              <p>
-                Upload your Trello JSON file
-              </p>
+            <p>
+              Upload your Trello JSON file
+            </p>
+
+            {% if invalid_cards %}
+              <div class="error-card">
+                <div class="error-card-title">The following stories are invalid:</div>
+                <ul>
+                  {% for card in invalid_cards %}
+                    <li>{{ card }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
             
             <div class="file-upload">
               <form method="post" enctype="multipart/form-data">
-                  <input type="file" name="file">
-                  <input type="submit" value="Upload">
+                  <label for="file-browse" class="mdl-button mdl-js-button mdl-button--raised">
+                    Upload
+                  </label>
+                  <input id="file-browse" type="file" name="file" style="display: none;"
+                  accept=".json" onchange="form.submit()">
               </form>
+              {% if download %}
+                <a id="download-button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="{{ download }}" download>Download</a>
+              {% endif %}
             </div>
-          
+            
+
             <h4>Help</h4>
 
             <p>
               Download your Trello JSON file by going to <em>Show Menu > More > Print
-              and Export > Export as JSON</em> in your Trello board</p>
+              and Export > Export as JSON</em> in your Trello board.</p>
 
             <p>
               See <a href="https://github.com/LiamGraham/trello-convert/blob/master/README.md">here</a> for instructions on how to structure your Trello
