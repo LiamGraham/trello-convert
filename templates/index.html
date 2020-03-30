@@ -57,10 +57,13 @@
               Upload your Trello JSON file
             </p>
 
-            {% if error_message %}
-              <div class="error-card">
-                {{ error_message }}
-              </div>
+
+            {% if error_messages %}
+              {% for message in error_messages %}
+                <div class="error-card">
+                  {{ message }}
+                </div>
+              {% endfor %}
             {% endif %}
 
             {% if invalid_cards %}

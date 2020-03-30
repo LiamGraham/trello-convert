@@ -50,7 +50,6 @@ PRIORITIES = {
     "must have": "M",
     "should have": "S",
     "could have": "C",
-    "won't have": "W",
 }
 
 
@@ -144,6 +143,7 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
     Returns:
         List[UserStory] -- List of parsed UserStory objects
         List[str] -- Text of invalid cards that could not be parsed as UserStory objects
+        List[str] -- Names of missing priority lists
     """
     with open(filename, "r", encoding='utf-8') as f:
         data = json.load(f)
@@ -152,11 +152,13 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
     lists = collect_lists(data)
     stories = []
     invalid = []
+    missing_lists = []
 
     # Check all standard priority lists exist 
     for priority in PRIORITIES:
         if priority not in lists.values():
             print(f"Warning: missing \"{priority}\" list") 
+            missing_lists.append(priority)
 
     for card in cards:
         if lists[card["idList"]] not in PRIORITIES:
@@ -170,7 +172,7 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
         except:
             print(f"Parsing failed: \"{card['name']}\"")
             invalid.append(card['name'])
-    return stories, invalid
+    return stories, invalid, missing_lists
 
 
 def main(filename: str):
@@ -180,7 +182,7 @@ def main(filename: str):
         filename {str} -- Name of JSON file to be converted
     """
     print("Collecting stories")
-    stories, _ = collect_stories(filename)
+    stories, _, _ = collect_stories(filename)
     print(f"Collected {len(stories)} valid stories")
     print("Creating pptx file")
     slides.create_slides(stories, "stories.pptx")

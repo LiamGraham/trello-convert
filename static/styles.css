@@ -75,6 +75,7 @@
   min-width: 25%;
   display: inline-block;
   border-radius: 2px;
+  margin: 0.25em 0;
 }
 
 .error-card ul {
