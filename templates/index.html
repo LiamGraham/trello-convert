@@ -59,11 +59,13 @@
 
 
             {% if error_messages %}
-              {% for message in error_messages %}
-                <div class="error-card">
-                  {{ message }}
-                </div>
-              {% endfor %}
+              <div class="error-container">
+                {% for message in error_messages %}
+                  <div class="error-card">
+                    {{ message }}
+                  </div>
+                {% endfor %}
+              </div>
             {% endif %}
 
             {% if invalid_cards %}
