@@ -109,7 +109,7 @@ def parse_card(card: dict, lists: dict) -> UserStory:
     """
     content = card["name"]
     desc = card["desc"].split("\n\n")
-    id_ = str(card["idShort"])
+    id_ = 0 # ID is assigned later based on number of valid cards parsed
     priority = PRIORITIES[lists[card["idList"]]]
 
     points, title, body = CARD_REGEX.match(content).groups()
@@ -153,6 +153,7 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
     stories = []
     invalid = []
     missing_lists = []
+    id_ = 1
 
     # Check all standard priority lists exist 
     for priority in PRIORITIES:
@@ -168,10 +169,14 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
             invalid.append(card['name'])
             continue
         try:
-            stories.append(parse_card(card, lists))
+            story = parse_card(card, lists)
+            story.id_ = str(id_)
+            id_ += 1
+            stories.append(story)
         except:
             print(f"Parsing failed: \"{card['name']}\"")
             invalid.append(card['name'])
+
     return stories, invalid, missing_lists
 
 
