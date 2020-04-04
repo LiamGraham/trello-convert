@@ -104,7 +104,7 @@ def parse_card(card: dict, lists: dict) -> UserStory:
 
     Arguments:
         card {dict} -- Trello card JSON object
-        lsits {dict} -- Mapping of Trello list ids to list names
+        lists {dict} -- Mapping of Trello list ids to list objects
     
     Returns:
         UserStory - Parsed UserStory object
@@ -112,7 +112,7 @@ def parse_card(card: dict, lists: dict) -> UserStory:
     content = card["name"]
     desc = card["desc"].split("\n\n")
     id_ = 0 # ID is assigned later based on number of valid cards parsed
-    priority = PRIORITIES[lists[card["idList"]]]
+    priority = PRIORITIES[lists[card["idList"]]["name"].lower()]
 
     points, title, body = CARD_REGEX.match(content).groups()
 
@@ -127,15 +127,15 @@ def parse_card(card: dict, lists: dict) -> UserStory:
 
 
 def collect_lists(data: List[dict]) -> dict:
-    """Returns a mapping of Trello list ids to list names. Facilitates list name lookup where only the list id is given.
+    """Returns a mapping of Trello list ids to list objects. Facilitates list lookup where only the list id is given.
     
     Arguments:
         data {List[dict]} -- Trello JSON data
     
     Returns:
-        dict -- Mapping of Trello list ids to list names
+        dict -- Mapping of Trello list ids to list objects
     """
-    return {x["id"]:x["name"].lower() for x in data["lists"]}
+    return {x["id"]:x for x in data["lists"]}
 
 
 def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
@@ -152,7 +152,7 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
     with open(filename, "r", encoding='utf-8') as f:
         data = json.load(f)
     
-    cards = data["cards"]
+    unsorted_cards = data["cards"]
     lists = collect_lists(data)
     stories = []
     invalid = []
@@ -160,13 +160,19 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
     id_ = 1
 
     # Check all standard priority lists exist 
+    list_names = [x["name"].lower() for x in lists.values()]
     for priority in PRIORITIES:
-        if priority not in lists.values():
+        if priority not in list_names:
             print(f"Warning: missing \"{priority}\" list") 
             missing_lists.append(priority)
 
+    # Sort cards according to position in board (top to bottom, left to right)
+    positions = {(lists[card["idList"]]["pos"], card["pos"]):card for card in unsorted_cards}
+    sorted_positions = sorted(positions.keys())
+    cards = [positions[x] for x in sorted_positions]
+    
     for card in cards:
-        if lists[card["idList"]] not in PRIORITIES or card.get("closed", False):
+        if lists[card["idList"]]["name"].lower() not in PRIORITIES or card.get("closed", False):
             continue
         if not validate_card(card):
             print(f"Card body is not valid. Check that it has the correct format: \"{card['name']}\"")
