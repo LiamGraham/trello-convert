@@ -94,13 +94,9 @@ def parse_bullets(target: str) -> Tuple[str, List[str]]:
     Returns:
         List[str] -- List of extracted bullet points (without leading hyphen)
     """
+    target = re.sub(r"(-|=){3,}\n", "", target)
     elements = target.split("\n")
-    # Ordered lists have more leading characters (3) than unordered lists
-    if elements[1][0].isdigit():
-        width = 3
-    else:
-        width = 2
-    return [x[width:] for x in elements[1:]]
+    return [re.sub(r"(- |[0-9]+\. )", "", x, count=1) for x in elements[1:]]
 
 
 def parse_card(card: dict, lists: dict) -> UserStory:
