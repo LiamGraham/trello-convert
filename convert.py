@@ -84,6 +84,7 @@ def validate_card(card: dict) -> bool:
     """
     return CARD_REGEX.match(card["name"]) is not None
 
+
 def parse_bullets(target: str) -> Tuple[str, List[str]]:
     """Returns the list of bullet points from a string of the the format "<heading>\n- <bullet-1>\n- <bullet-2>..."  
     
@@ -94,7 +95,12 @@ def parse_bullets(target: str) -> Tuple[str, List[str]]:
         List[str] -- List of extracted bullet points (without leading hyphen)
     """
     elements = target.split("\n")
-    return [x.replace("- ", "", 1) for x in elements[1:]]
+    # Ordered lists have more leading characters (3) than unordered lists
+    if elements[1][0].isdigit():
+        width = 3
+    else:
+        width = 2
+    return [x[width:] for x in elements[1:]]
 
 
 def parse_card(card: dict, lists: dict) -> UserStory:
@@ -114,10 +120,12 @@ def parse_card(card: dict, lists: dict) -> UserStory:
 
     points, title, body = CARD_REGEX.match(content).groups()
 
-    criteria = parse_bullets(desc[0])
+    criteria = []
     notes = []
-    if len(desc) > 1:
-        notes = parse_bullets(desc[1])
+    if desc:
+        criteria = parse_bullets(desc[0])
+        if len(desc) > 1:
+            notes = parse_bullets(desc[1])
 
     return UserStory(id_, title, body, priority, points, criteria, notes) 
 
