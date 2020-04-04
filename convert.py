@@ -162,7 +162,7 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
             missing_lists.append(priority)
 
     for card in cards:
-        if lists[card["idList"]] not in PRIORITIES:
+        if lists[card["idList"]] not in PRIORITIES or card.get("closed", False):
             continue
         if not validate_card(card):
             print(f"Card body is not valid. Check that it has the correct format: \"{card['name']}\"")
