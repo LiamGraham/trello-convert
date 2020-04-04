@@ -168,8 +168,7 @@ def collect_stories(filename: str) -> Tuple[List[UserStory], List[str]]:
 
     # Sort cards according to position in board (top to bottom, left to right)
     positions = {(lists[card["idList"]]["pos"], card["pos"]):card for card in unsorted_cards}
-    sorted_positions = sorted(positions.keys())
-    cards = [positions[x] for x in sorted_positions]
+    cards = [positions[x] for x in sorted(positions.keys())]
     
     for card in cards:
         if lists[card["idList"]]["name"].lower() not in PRIORITIES or card.get("closed", False):
